@@ -8,15 +8,18 @@ Create a user story
 
 
 ## Domain: Project Title 
-1. **Sub Title 2**
+1. **Introduction**
 
 Description here
 
-2. **Sub Title 1**
+2. **Objective**
 
 Description here
 
-3. **Sub Title 3**
+3. **Hardware**
+
+
+4. **Software**
 
 Description here
 
