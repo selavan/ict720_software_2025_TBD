@@ -26,8 +26,13 @@ Description here
   - Bluetooth
 
 
-
 5. **Software**
+
+Description here
+
+6. **Reference**
+- Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
+- How to use ESP32-S3: https://randomnerdtutorials.com/
 
 Description here
 
