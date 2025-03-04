@@ -2,7 +2,7 @@
 Create a user story
 
 ## Member:
-1. Nattapol TAPTIENG
+1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com)
 2. Sela VAN
 3. Yanavut CHAWAPHANTH
 
