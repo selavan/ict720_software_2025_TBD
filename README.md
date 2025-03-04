@@ -2,9 +2,9 @@
 Create a user story
 
 ## Member:
-1. text here
-2. text here
-3. text 
+1. Nattapol TAPTIENG
+2. Sela VAN
+3. Yanavut CHAWAPHANTH
 
 
 ## Domain: Project Title 
@@ -13,13 +13,21 @@ Create a user story
 Description here
 
 2. **Objective**
+- Image recognition
+- 
 
-Description here
 
 3. **Hardware**
+- Hardware name: T-SIMCAM (ESP32-S3 CAM Development Board WiFi Bluetooth 5.0 Wireless Module)
+- Sensor:
+  - Camera
+  - WiFi
+  - Microphone
+  - Bluetooth
 
 
-4. **Software**
+
+5. **Software**
 
 Description here
 
