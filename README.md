@@ -1,6 +1,8 @@
 # ict720_software_2025_TBD
 Create a user story
 
+![Alt text](images/parrot.jpg)
+
 ## Member:
 1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com)
 2. Sela VAN
