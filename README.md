@@ -1,6 +1,7 @@
 # ict720_software_2025_TBD
 Create a user story
 
+![Alt text](images/image#1.jpg)
 ![Alt text](images/parrot.jpg)
 
 ## Member:
