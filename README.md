@@ -2,7 +2,7 @@
 Create a user story
 
 ![Alt text](images/diagram_1.png)
-![Alt text](images/parrot.jpg)
+
 
 ## Member:
 1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com)
