@@ -31,7 +31,7 @@ Description here
 
 5. **Software**
 
-Description here
+Why Wi-Fi?
 
 6. **Reference**
 - Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
