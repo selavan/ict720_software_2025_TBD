@@ -9,7 +9,7 @@ Create a user story
 2. Sela VAN
 3. Yanavut CHAWAPHANTH
 
-## Domain: Baby Observation\
+## Domain: Baby Observation
 
 ## User Story:
 As a parent, I want a smart and attentive companion that continuously watches over my baby. Whenever my baby wakes, cries, or behaves unusually, I need to be instantly alerted, no matter where I am in the house or outside. This way, I can quickly comfort and ensure my baby's safety, giving me peace of mind and confidence to handle daily tasks without worry.
