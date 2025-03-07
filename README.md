@@ -10,14 +10,14 @@ Create a user story
 3. Yanavut CHAWAPHANTH
 
 
-## Domain: Project Title 
+## Domain: Baby Observation
 1. **Introduction**
 
 Description here
 
 2. **Objective**
 - Image recognition
-- 
+- Voice detection
 
 
 3. **Hardware**
