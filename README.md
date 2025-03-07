@@ -21,14 +21,45 @@ Have you ever wanted to spend the night without your adorable, lovely, fragile b
 2. **Objective**
 - Ensure the status of the baby while parents are in the different rooms or during the nighttime.
 
+## 3. **Hardware**
 
-3. **Hardware**
-- Hardware name: T-SIMCAM (ESP32-S3 CAM Development Board WiFi Bluetooth 5.0 Wireless Module)
-- Sensor:
-  - Camera
-  - WiFi
-  - Microphone
-  - Bluetooth
+The T-SIMCAM ESP32-S3 CAM is a versatile development board designed by LilyGO, featuring the ESP32-S3 microcontroller. It integrates a camera, wireless connectivity, and expansion options, making it suitable for IoT, computer vision, and edge computing projects.
+
+**T-SIMCAM ESP32-S3 CAM Hardware Specification**
+
+**Microcontroller Unit (MCU)**
+- Model: ESP32-S3R8
+- Architecture: Dual-core Xtensa LX7 microprocessor
+- Clock Speed: Up to 240 MHz
+- Memory:
+  - RAM: 8 MB PSRAM
+  - Flash Storage: 16 MB QSPI flash
+- Wireless Connectivity:
+  - Wi-Fi: IEEE 802.11b/g/n (2.4 GHz)
+  - Bluetooth: Version 5.0 LE and Mesh
+
+**Camera**
+- Sensor: OV2640
+- Resolution: 2 Megapixels (1622×1200)
+- Frame Rate: Up to 60 fps
+
+**Audio**
+- Microphone: I2S digital microphone (MSM261S4030H0R)
+
+**Expansion and Connectivity**
+- MicroSD Card Slot: Supports external storage
+- mPCIe Socket: Optional cellular modules (NB-IoT, 2G GSM, 3G/4G LTE)
+- SIM Card Slot: Nano-SIM compatibility (requires additional mPCIe module)
+- Grove Connector: For easy sensor integration
+- USB Port: 1x USB Type-C for power and programming
+
+**Power Supply**
+- USB-C Port: 5V DC input
+- Battery Support: 2-pin JST connector for LiPo batteries
+- Charging Chip: TP4056, supports up to 580 mA charging current
+
+**Dimensions**
+- Size: 82 x 35.5 x 12 mm
 
 
 5. **Software**
