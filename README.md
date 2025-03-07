@@ -31,9 +31,13 @@ Description here
 
 5. **Software**
 
+6. **Network and Connection**
+- Station Mode
+  - 
+
 Why Wi-Fi?
 
-6. **Reference**
+7. **Reference**
 - Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
 - How to use ESP32-S3: https://randomnerdtutorials.com/
 
