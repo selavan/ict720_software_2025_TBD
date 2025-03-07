@@ -1,8 +1,6 @@
 # ict720_software_2025_baby_observation
-Create a user story
 
 ![Alt text](images/diagram_1.png)
-
 
 ## Member:
 1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com)
@@ -15,8 +13,7 @@ Create a user story
 As a parent, I want a smart and attentive companion that continuously watches over my baby. Whenever my baby wakes, cries, or behaves unusually, I need to be instantly alerted, no matter where I am in the house or outside. This way, I can quickly comfort and ensure my baby's safety, giving me peace of mind and confidence to handle daily tasks without worry.
 
 1. **Introduction**
-
-Description here
+Have you ever wanted to spend the night without your adorable, lovely, fragile baby? (Let's have some space between us!) 😗
 
 2. **Objective**
 - Image recognition
