@@ -7,17 +7,19 @@
 2. Sela VAN
 3. Yanavut CHAWAPHANTH
 
-## Domain: Baby Observation
+## Domain: Baby Observation (There...There...🥰)
+
 
 ## User Story:
 As a parent, I want a smart and attentive companion that continuously watches over my baby. Whenever my baby wakes, cries, or behaves unusually, I need to be instantly alerted, no matter where I am in the house or outside. This way, I can quickly comfort and ensure my baby's safety, giving me peace of mind and confidence to handle daily tasks without worry.
 
+
 1. **Introduction**
 Have you ever wanted to spend the night without your adorable, lovely, fragile baby? (Let's have some space between us!) 😗
 
+
 2. **Objective**
-- Image recognition
-- Voice detection
+- Ensure the status of the baby while parents are in the different rooms or during the nighttime.
 
 
 3. **Hardware**
