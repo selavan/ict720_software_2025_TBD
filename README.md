@@ -33,7 +33,7 @@ Description here
 
 6. **Network and Connection**
 - Station Mode
-  - 
+![Alt text](images/Network and Connection.png)
 
 Why Wi-Fi?
 
