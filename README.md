@@ -48,6 +48,10 @@ The T-SIMCAM ESP32-S3 CAM is a versatile development board designed by LilyGO, f
 
 **Audio**
 - Microphone: I2S digital microphone (MSM261S4030H0R)
+- Microphone Module
+  - Connects to the ESP32’s ADC1 pins (best result)
+  - ADC operates between 0 V and ~3.3 V.
+
 
 **Expansion and Connectivity**
 - MicroSD Card Slot: Supports external storage
