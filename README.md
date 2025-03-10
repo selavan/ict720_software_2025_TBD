@@ -1,6 +1,6 @@
 # ict720_software_2025_baby_observation
 
-![Alt text](images/diagram_1.png)
+<img src="images/diagram_1.png" alt="Alt text" width="200">
 
 ## Member:
 1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com) --> _[Project_Manager]_
@@ -94,9 +94,8 @@ Why Wi-Fi?
 ## 7. **Approach**
 - ESP32 with external processing unit
 - ESP32 (C/C++) → Communication Layer (e.g. MQTT) → ML Processing (Python)
-![Alt text](images/ESP32_w_ext.processing.png)
 
-<img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="100">
+<img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="200">
 
 
 Description here
