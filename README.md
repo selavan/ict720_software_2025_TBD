@@ -20,6 +20,9 @@ Have you ever wanted to spend the night without your adorable, lovely, fragile b
 
 2. **Objective**
 - Ensure the status of the baby while parents are in the different rooms or during the nighttime.
+- To detect facial expression analysis of the baby _(identifying crying or distressed facial cues)_
+- To detect sound detection of the baby _(microphone data to detect crying sounds)_
+
 
 ## 3. **Hardware**
 
