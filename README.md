@@ -95,7 +95,8 @@ Why Wi-Fi?
 - ESP32 with external processing unit
 - ESP32 (C/C++) → Communication Layer (e.g. MQTT) → ML Processing (Python)
 ![Alt text](images/ESP32_w_ext.processing.png)
-<img src="ESP32_w_ext.processing.png" alt="Alt Text" style="width:30%; height:auto;">
+
+<img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="100">
 
 
 Description here
