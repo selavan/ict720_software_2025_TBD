@@ -89,15 +89,15 @@ image source: https://lastminuteengineers.com/esp32-pinout-reference/
 
 Why Wi-Fi?
 
-## 6. **Reference**
-- Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
-- How to use ESP32-S3: https://randomnerdtutorials.com/
 
-## 7. **Approach**
+## 6. **Approach**
 - ESP32 with external processing unit
 - ESP32 (C/C++) → Communication Layer (e.g. MQTT) → ML Processing (Python)
 
 <img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="300">
 
 
-Description here
+## 7. **Reference**
+- Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
+- How to use ESP32-S3: https://randomnerdtutorials.com/
+
