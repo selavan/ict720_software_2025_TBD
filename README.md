@@ -28,6 +28,14 @@ Have you ever wanted to spend the night without your adorable, lovely, fragile b
 
 The T-SIMCAM ESP32-S3 CAM is a versatile development board designed by LilyGO, featuring the ESP32-S3 microcontroller. It integrates a camera, wireless connectivity, and expansion options, making it suitable for IoT, computer vision, and edge computing projects.
 
+<!-- ![Alt text](images/ESP32-S3-camera-board.jpg) -->
+<!-- img src="images/ESP32-S3-camera-board.jpg" width="600" -->
+<!-- to adjust the width and position "center", "left", or "right" -->
+<p align="center">
+  <img src="images/ESP32-S3-camera-board.jpg" width="600">
+</p>
+
+
 **T-SIMCAM ESP32-S3 CAM Hardware Specification**
 
 **Microcontroller Unit (MCU)**
