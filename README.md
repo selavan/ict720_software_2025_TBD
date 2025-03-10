@@ -61,6 +61,7 @@ The T-SIMCAM ESP32-S3 CAM is a versatile development board designed by LilyGO, f
   - ADC operates between 0 V and ~3.3 V.
 
 ![Alt text](images/ESP32-ADC-Pins.png)
+image source: https://lastminuteengineers.com/esp32-pinout-reference/
 
 
 **Expansion and Connectivity**
@@ -94,6 +95,7 @@ Why Wi-Fi?
 - ESP32 with external processing unit
 - ESP32 (C/C++) → Communication Layer (e.g. MQTT) → ML Processing (Python)
 ![Alt text](images/ESP32_w_ext.processing.png)
+<img src="ESP32_w_ext.processing.png" alt="Alt Text" style="width:30%; height:auto;">
 
 
 Description here
