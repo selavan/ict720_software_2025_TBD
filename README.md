@@ -3,9 +3,9 @@
 ![Alt text](images/diagram_1.png)
 
 ## Member:
-1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com)
-2. Sela VAN
-3. Yanavut CHAWAPHANTH
+1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com) <Project_Manager>
+2. Sela VAN <Web>
+3. Yanavut CHAWAPHANTH <Image_Object_Detection>
 
 ## Domain: Baby Observation (There...There...🥰)
 
@@ -78,7 +78,3 @@ Why Wi-Fi?
 - How to use ESP32-S3: https://randomnerdtutorials.com/
 
 Description here
-
-# hehehehe
-
-
