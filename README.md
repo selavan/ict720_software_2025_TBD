@@ -14,11 +14,11 @@
 As a parent, I want a smart and attentive companion that continuously watches over my baby. Whenever my baby wakes, cries, or behaves unusually, I need to be instantly alerted, no matter where I am in the house or outside. This way, I can quickly comfort and ensure my baby's safety, giving me peace of mind and confidence to handle daily tasks without worry.
 
 
-1. **Introduction**
+## 1. **Introduction**
 Have you ever wanted to spend the night without your adorable, lovely, fragile baby? (Let's have some space between us!) 😗
 
 
-2. **Objective**
+## 2. **Objective**
 - Ensure the status of the baby while parents are in the different rooms or during the nighttime.
 - To detect facial expression analysis of the baby _(identifying crying or distressed facial cues)_
 - To detect sound detection of the baby _(microphone data to detect crying sounds)_
@@ -65,15 +65,15 @@ The T-SIMCAM ESP32-S3 CAM is a versatile development board designed by LilyGO, f
 - Size: 82 x 35.5 x 12 mm
 
 
-5. **Software**
+## 4. **Software**
 
-6. **Network and Connection**
+## 5. **Network and Connection**
 - Station Mode
 ![Alt text](images/NaC.png)
 
 Why Wi-Fi?
 
-7. **Reference**
+## 6. **Reference**
 - Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
 - How to use ESP32-S3: https://randomnerdtutorials.com/
 
