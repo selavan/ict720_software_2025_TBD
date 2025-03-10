@@ -4,7 +4,7 @@
 
 ## Member:
 1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com) --> _[Project_Manager]_
-2. Sela VAN --> _[Web]_
+2. Sela VAN --> _[Web_Development]_
 3. Yanavut CHAWAPHANTH --> _[Image_Object_Detection]_
 
 ## Domain: Baby Observation (There...There...🥰)
