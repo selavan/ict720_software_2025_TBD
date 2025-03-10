@@ -90,4 +90,10 @@ Why Wi-Fi?
 - Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
 - How to use ESP32-S3: https://randomnerdtutorials.com/
 
+## 7. **Approach**
+- ESP32 with external processing unit
+- ESP32 (C/C++) → Communication Layer (e.g. MQTT) → ML Processing (Python)
+![Alt text](images/ESP32_w_ext.processing.png)
+
+
 Description here
