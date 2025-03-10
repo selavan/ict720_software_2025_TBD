@@ -1,6 +1,8 @@
 # ict720_software_2025_baby_observation
 
-<img src="images/diagram_1.png" alt="Alt text" width="500">
+<div style="text-align: center;">
+  <img src="images/diagram_1.png" alt="Alt text" width="750">
+</div>
 
 ## Member:
 1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com) --> _[Project_Manager]_
