@@ -3,9 +3,9 @@
 ![Alt text](images/diagram_1.png)
 
 ## Member:
-1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com) <Project_Manager>
-2. Sela VAN <Web>
-3. Yanavut CHAWAPHANTH <Image_Object_Detection>
+1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com) --> _[Project_Manager]_
+2. Sela VAN --> _[Web]_
+3. Yanavut CHAWAPHANTH --> _[Image_Object_Detection]_
 
 ## Domain: Baby Observation (There...There...🥰)
 
@@ -63,7 +63,6 @@ The T-SIMCAM ESP32-S3 CAM is a versatile development board designed by LilyGO, f
 
 **Dimensions**
 - Size: 82 x 35.5 x 12 mm
-
 
 ## 4. **Software**
 
