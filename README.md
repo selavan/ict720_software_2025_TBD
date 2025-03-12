@@ -101,3 +101,7 @@ Why Wi-Fi?
 - Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
 - How to use ESP32-S3: https://randomnerdtutorials.com/
 
+## 8. **Data Approach**
+<img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="300">
+
+<img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="300">
