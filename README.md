@@ -100,9 +100,21 @@ Why Wi-Fi?
 ## 7. **Data Approach**
 <img src="images/data_1.png" alt="Alt text" width="900">
 
-<img src="images/data_2.png" alt="Alt text" width="900">
+### 7W Data Structure
+
+| **7W**   | **Description** | **Value (Example)** | **Data Type** | **Remark** |
+|----------|---------------|--------------------|--------------|-----------|
+| **Who** | Identifies the observer (parent, caregiver, AI system) | "Parent", "Nanny", "AI Monitor" | String | N/A |
+| **When** | Timestamp of the observation | `YY/MM/DD H/M/S` | Datetime | Global UTC time |
+| **What** | Baby's current status or action | "Crying", "Sleeping", "Smiling", "Waking Up" | String | N/A |
+| **Why** | Possible reason for the baby's state | "Hungry", "Diaper wet", "Sleepy", "Happy interaction" | String | Optional for further baby status analysis and interpretation. |
+| **Which** | Identifies specific signals used to classify the baby's state | "Audio (cry sound detected)", "Video (facial expression detected)" | String | N/A |
+| **Where** | Location where the observation was made | "Crib", "Living Room", "Car Seat", "Daycare" | String | N/A |
+| **Whose** | Identifies the baby being observed | "Baby A", "Baby B" | String | Consider a family with more than one baby (e.g., siblings). |
+
 
 The data can be stored in JSON format for further processing:
+### Json Representation
 
 ```json
 [
@@ -157,6 +169,8 @@ The data can be stored in JSON format for further processing:
     }
 ]
 
+
 ## 8. **Reference**
+
 - Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
 - How to use ESP32-S3: https://randomnerdtutorials.com/
