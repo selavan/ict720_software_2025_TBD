@@ -97,11 +97,66 @@ Why Wi-Fi?
 <img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="300">
 
 
-## 7. **Reference**
-- Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
-- How to use ESP32-S3: https://randomnerdtutorials.com/
-
-## 8. **Data Approach**
+## 7. **Data Approach**
 <img src="images/data_1.png" alt="Alt text" width="900">
 
 <img src="images/data_2.png" alt="Alt text" width="900">
+
+The data can be stored in JSON format for further processing:
+
+```json
+[
+    {
+        "7W": "Who",
+        "Description": "Identifies the observer (parent)",
+        "Value": ["Parent"],
+        "Data_Type": "String",
+        "Remark": "N/A"
+    },
+    {
+        "7W": "When",
+        "Description": "Timestamp of the observation",
+        "Value": "YY/MM/DD H/M/S",
+        "Data_Type": "Datetime",
+        "Remark": "Global UTC time"
+    },
+    {
+        "7W": "What",
+        "Description": "Baby's current status or action",
+        "Value": ["Crying", "Sleeping", "Smiling", "Waking Up"],
+        "Data_Type": "String",
+        "Remark": "N/A"
+    },
+    {
+        "7W": "Why",
+        "Description": "Possible reason for the baby's state",
+        "Value": ["Hungry", "Diaper wet", "Sleepy", "Happy interaction"],
+        "Data_Type": "String",
+        "Remark": "Optional for further baby status analysis and interpretation."
+    },
+    {
+        "7W": "Which",
+        "Description": "Identifies specific signals used to classify the baby's state",
+        "Value": ["Audio (cry sound detected)", "Video (facial expression detected)"],
+        "Data_Type": "String",
+        "Remark": "N/A"
+    },
+    {
+        "7W": "Where",
+        "Description": "Location where the observation was made",
+        "Value": ["Crib", "Living Room", "Car Seat", "Daycare"],
+        "Data_Type": "String",
+        "Remark": "N/A"
+    },
+    {
+        "7W": "Whose",
+        "Description": "Identifies the baby being observed",
+        "Value": ["Baby A", "Baby B"],
+        "Data_Type": "String",
+        "Remark": "For example, consider a family with more than one baby. E.g., siblings"
+    }
+]
+
+## 8. **Reference**
+- Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
+- How to use ESP32-S3: https://randomnerdtutorials.com/
