@@ -169,8 +169,3 @@ The data can be stored in JSON format for further processing:
     }
 ]
 
-
-## 8. **Reference**
-
-- Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
-- How to use ESP32-S3: https://randomnerdtutorials.com/
