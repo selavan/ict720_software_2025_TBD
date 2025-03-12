@@ -102,6 +102,6 @@ Why Wi-Fi?
 - How to use ESP32-S3: https://randomnerdtutorials.com/
 
 ## 8. **Data Approach**
-<img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="300">
+<img src="images/data_1.png" alt="Alt text" width="900">
 
-<img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="300">
+<img src="images/data_2.png" alt="Alt text" width="900">
