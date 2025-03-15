@@ -9,6 +9,9 @@
 2. Sela VAN --> _[Web_Development]_
 3. Yanavut CHAWAPHANTH --> _[Image_Object_Detection]_
 
+## PIC_Flow:
+<img src="PIC_Flow.png" alt="Alt text" width="750">
+
 ## Domain: Baby Observation (There...There...🥰)
 
 
@@ -172,7 +175,3 @@ The data can be stored in JSON format for further processing:
 ## 8. **Reference**
 - Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
 - How to use ESP32-S3: https://randomnerdtutorials.com/
-
-
-## 9. **PIC_Flow*** (As of 15 Mar 2)
-<img src="images/data_1.png" alt="Alt text" width="900">
