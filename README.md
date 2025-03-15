@@ -10,7 +10,7 @@
 3. Yanavut CHAWAPHANTH --> _[Image_Object_Detection]_
 
 ## PIC_Flow:
-<img src="images/PIC.png" alt="Alt text" width="750">
+<img src="images/PIC.png" alt="Alt text" width="400">
 
 ## Domain: Baby Observation (There...There...🥰)
 
