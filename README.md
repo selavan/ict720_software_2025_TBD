@@ -101,7 +101,12 @@ Why Wi-Fi?
 
 
 ## 7. **Data Approach**
-<img src="images/data_1.png" alt="Alt text" width="900">
+| No. | Data Aspect | Description                                   | Type                        | Format                     | Collecting Medium   | Data Management                           | Process                  |
+|-----|-------------|-----------------------------------------------|-----------------------------|----------------------------|---------------------|--------------------------------------------|--------------------------|
+| 1   | **Images**  | Photos captured from ESP32-CAM                | Raw Image (RGB/Grayscale)   | .jpg / .png / .bmp         | ESP32-CAM           | Data Cleaning, Data Labeling, Data Logging | Face Detection           |
+| 2   | **Audio**   | Sound captured from a microphone (ESP32 ADC)  | PCM / WAV                   | .wav / .pcm                | ESP32 Microphone    |                                            | Expression Classification|
+| 3   | **Timestamps** | Time of data collection                    | DateTime                    | ISO 8601 format            | System Clock        |                                            | Cry Detection            |
+| 4   | **Metadata** | Device ID, environment conditions            | JSON                        | .json                      | ESP32               |                                            | Alert System             |
 
 ### 7W Data Structure
 
