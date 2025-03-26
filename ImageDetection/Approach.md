@@ -13,6 +13,10 @@
     
 ---
 
+#### Data Acquisition
+
+---
+
 #### Settings
 1) The structure of the code consists of three parts: .py and two .yaml(s) for settings.
 
@@ -26,7 +30,11 @@
 
 ---
 
-#### Results & Evaluation Metrics
+#### Evaluation Metrics
+
+---
+
+#### Results 
 
 
 
