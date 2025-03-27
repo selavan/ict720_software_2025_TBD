@@ -31,6 +31,23 @@
 ---
 
 #### Evaluation Metrics
+| Aspect                    | Description                                                             | Remark               |                    |
+|---------------------------|-------------------------------------------------------------------------|---------------------|---------------------| 
+| `epoch`                  | Current epoch number (1–10 shown here).                                 |   N/A             |                        |
+| `time`                   | Time taken in seconds per epoch.                                        |      N/A          |
+| `train/box_loss`         | Bounding box regression loss — lower is better.                         |       N/A         |
+| `train/cls_loss`         | Classification loss — penalizes misclassified objects.                  |        N/A        |
+| `train/dfl_loss`         | Distribution Focal Loss — improves box localization (YOLOv8).           |        N/A        |
+| `metrics/precision(B)`   | % of true positives out of all predicted positives (TP / (TP + FP)).     |        Considered        |
+| `metrics/recall(B)`      | % of true positives out of all actual positives (TP / (TP + FN)).        |       Considered         |
+| `metrics/mAP50(B)`       | Mean Average Precision at IoU 0.50 — general object detection metric.   |     Considered           |
+| `metrics/mAP50-95(B)`    | mAP averaged over IoUs 0.5 to 0.95 — stricter and more reliable.        |     Considered           |
+| `val/box_loss`           | Box loss on the validation set — lower means better generalization.     |         Considered       |
+| `val/cls_loss`           | Validation classification loss.                                         |       Considered         |
+| `val/dfl_loss`           | Validation focal loss.                                                  |        Considered        |
+| `lr/pg0`, `pg1`, `pg2`   | Learning rates for different model layers (e.g., backbone, head).        |         N/A       |
+
+There are 7 aspects of the evaluation metrics to be considered.
 
 ---
 
