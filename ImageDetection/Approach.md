@@ -1,6 +1,9 @@
 ## Image Detection Approach
 
 ### Approach 1: Model Training with YOLO11s-cls
+
+---
+
 #### Introduction
 1) _**Source:**_  https://docs.ultralytics.com/tasks/detect/ 
 <img width="600" alt="Screenshot 2568-03-26 at 20 20 17" src="https://github.com/user-attachments/assets/1f2cae21-7a54-48b3-92fb-0046dfc99485"> 
@@ -17,7 +20,8 @@
 
 <img width="350" alt="Screenshot 2568-03-27 at 13 03 41" src="https://github.com/user-attachments/assets/6529c500-f57a-4ab3-9da6-992958ed2519" />
 
-_**source:**_ https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
+1) _**source:**_ https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
+
 
 | No. | Class_No. | Class_Name |
 |-----|-----------|------------|
@@ -29,6 +33,7 @@ _**source:**_ https://www.kaggle.com/datasets/jonathanoheix/face-expression-reco
 |  6  |     5     | Sad        |
 |  7  |     6     | Surprise   |
 
+2) ⬆️ 7 classses of the data 
 ---
 
 #### Settings
@@ -61,16 +66,24 @@ _**source:**_ https://www.kaggle.com/datasets/jonathanoheix/face-expression-reco
 | `val/dfl_loss`           | Validation focal loss.                                                  |        Considered        |
 | `lr/pg0`, `pg1`, `pg2`   | Learning rates for different model layers (e.g., backbone, head).        |         N/A       |
 
-There are 7 aspects of the evaluation metrics to be considered.
+⬆️ 7 aspects of the evaluation metrics and selected group to be considered.
 
 ---
 
 #### Results 
 
+In this project, results are determined by 2 main metrics:
 
+1) Evaluation metrics
+    
+2) Testing Results
 
 ---
+
 ### Approach 2: Model Training with EdgeImpulse
 _**Source:**_ https://studio.edgeimpulse.com/studio/654682/impulse/1/learning/keras-object-detection/3
 
+1) Training and testing methods are similar to the 1st approach; however, it makes things easier like a one-stop service for training-testing-deploying.
+
+2) Best for grab-and-go users who require more build and deployment speed.
 
