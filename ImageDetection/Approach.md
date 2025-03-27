@@ -2,8 +2,8 @@
 
 ### Approach 1: Model Training with YOLO11s-cls
 #### Introduction
-1) Source: https://docs.ultralytics.com/tasks/detect/ 
-<img width="750" alt="Screenshot 2568-03-26 at 20 20 17" src="https://github.com/user-attachments/assets/1f2cae21-7a54-48b3-92fb-0046dfc99485"> 
+1) _**Source:**_  https://docs.ultralytics.com/tasks/detect/ 
+<img width="600" alt="Screenshot 2568-03-26 at 20 20 17" src="https://github.com/user-attachments/assets/1f2cae21-7a54-48b3-92fb-0046dfc99485"> 
     
 2) The training and testing were done on a MacBook Pro M1 w/ 16 GB of ram (2020). It used **"MPS"** instead of **"CUDA"** _(MPS - Metal Performance Shaders is the Apple’s GPU-accelerated framework for deep learning)_
     
@@ -14,6 +14,20 @@
 ---
 
 #### Data Acquisition
+
+<img width="350" alt="Screenshot 2568-03-27 at 13 03 41" src="https://github.com/user-attachments/assets/6529c500-f57a-4ab3-9da6-992958ed2519" />
+
+_**source:**_ https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
+
+| No. | Class_No. | Class_Name |
+|-----|-----------|------------|
+|  1  |     0     | Angry      |
+|  2  |     1     | Disgust    |
+|  3  |     2     | Fear       |
+|  4  |     3     | Happy      |
+|  5  |     4     | Neutral    |
+|  6  |     5     | Sad        |
+|  7  |     6     | Surprise   |
 
 ---
 
@@ -57,6 +71,6 @@ There are 7 aspects of the evaluation metrics to be considered.
 
 ---
 ### Approach 2: Model Training with EdgeImpulse
-    1) Source: https://studio.edgeimpulse.com/studio/654682/impulse/1/learning/keras-object-detection/3
+_**Source:**_ https://studio.edgeimpulse.com/studio/654682/impulse/1/learning/keras-object-detection/3
 
 
