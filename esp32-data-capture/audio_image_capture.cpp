@@ -5,13 +5,13 @@
 #include "camera_pins.h"
 #include "addons/TokenHelper.h"
 
-// Wi-Fi credentials (replace with your own)
-const char* ssid = "WIFI_SSID";
-const char* password = "WIFI_PASSWORD";
+// Wi-Fi credentials
+const char* ssid = "xxx";
+const char* password = "xxx";
 
-// Firebase credentials (replace with your own)
-#define API_KEY "FIREBASE_API_KEY"
-#define STORAGE_BUCKET_ID "PROJECT.appspot.com"
+// Firebase credentials
+#define API_KEY "xxx"
+#define STORAGE_BUCKET_ID "xxx"
 
 // Firebase objects
 FirebaseData fbdo;
