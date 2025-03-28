@@ -174,7 +174,7 @@ _**Testing Result**_
 ### Conclusion on AI
 1) Works as expected
 
-   1.1) Train and Test
+   1.1) Train and Test with acceptable results (F1 = 80%, ACC = 60% respectively)
 
    1.2) Build and upload to the ESP32 for actual testing
 
