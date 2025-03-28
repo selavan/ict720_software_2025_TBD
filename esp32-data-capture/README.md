@@ -1,26 +1,31 @@
 # Baby Observation Project: Data Capture and Upload with ESP32-S3
 
 ## 📌 Project Overview
-This project focuses on developing an automated system using the **T-SIMCAM ESP32-S3** microcontroller board to:
-- Capture images and record audio upon detecting sound events (e.g., baby crying).
-- Upload captured data to Firebase Cloud Storage for further analysis.
 
-## 🎯 My Responsibility
-- Writing embedded software for ESP32-S3.
-- Implementing logic to detect noise thresholds.
-- Capturing images and recording audio events efficiently.
-- Uploading data securely to Firebase cloud storage.
+This project utilizes an ESP32-S3 microcontroller to:
+
+- Capture images and record audio upon detecting significant sound events, such as a baby crying.
+- Upload the recorded data securely to Firebase Cloud Storage.
+
+## 🎯 Project Responsibilities
+
+- Develop embedded software for ESP32-S3.
+- Implement sound detection algorithms.
+- Automate image capturing and audio recording processes.
+- Ensure secure and efficient data uploads to cloud storage.
 
 ## 🛠️ Hardware Components
-- T-SIMCAM ESP32-S3 board
-- Built-in camera module
-- Integrated I2S microphone
 
-## ⚙️ Implementation Details
+- T-SIMCAM ESP32-S3 board
+- Integrated camera module
+- Built-in I2S microphone
+
+## ⚙️ Technical Implementation
 
 ### 🔊 Sound Detection
-- The microphone continuously monitors surrounding sounds.
-- It calculates sound intensity levels using RMS (Root Mean Square):
+
+- The microphone continuously samples ambient audio.
+- Sound intensity is measured using Root Mean Square (RMS) calculations:
 
 ```cpp
 int soundLevel = readSoundLevel();
@@ -31,8 +36,7 @@ if (!recording && soundLevel > SOUND_THRESHOLD) {
     silenceStart = millis();
 }
 ```
-
-- Recording stops after about 3 seconds of silence:
+- Recording stops automatically after about 3 seconds of silence:
 
 ```cpp
 if (recording && millis() - silenceStart > SILENCE_DURATION) {
@@ -42,45 +46,45 @@ if (recording && millis() - silenceStart > SILENCE_DURATION) {
 ```
 
 ### 📸 Image Capture
-- A picture is taken immediately when loud sound is detected:
+
+- The camera immediately captures an image upon detecting a loud sound event:
 
 ```cpp
 void captureAndUploadImage() {
     camera_fb_t *fb = esp_camera_fb_get();
     if (fb) {
-        String path = "/images/image_" + String(millis()) + ".jpg";
+        String path = "/pictures/picture_" + String(millis()) + ".jpg";
         Firebase.Storage.upload(&fbdo, STORAGE_BUCKET_ID, path, fb->buf, fb->len, "image/jpeg");
         esp_camera_fb_return(fb);
     }
 }
 ```
-
-- Pictures are small (320x240 pixels) to save storage.
-- Each image is timestamped for easy retrieval.
-
+- Captured images have a resolution of 320x240 pixels to balance quality and file size.
+- Images are timestamped clearly for efficient retrieval and analysis.
 
 ### 🎙️ Audio Recording
-- Sound recording begins immediately upon event detection:
+
+- Audio recording starts simultaneously with image capture:
 
 ```cpp
 void startAudioRecording() {
     audioFile = SPIFFS.open("/audio.wav", FILE_WRITE);
 }
 ```
+- Continues recording until a quiet environment (below threshold) persists for about 3 seconds.
+- Recorded audio is saved in WAV format at a sampling rate of 16kHz.
 
-- It continues recording until the environment remains quiet for around 3 seconds.
-- High-quality audio is saved as WAV format.
-  
-### ☁️ Cloud Integration (Firebase)
-- Recorded data is safely uploaded to Firebase Cloud Storage:
+### ☁️ Cloud Storage (Firebase)
+
+- Files are securely uploaded to Firebase Cloud Storage:
 
 ```cpp
 Firebase.Storage.upload(&fbdo, STORAGE_BUCKET_ID, path, file, content_type);
 ```
+- Uploaded data uses clear, timestamped filenames.
 
-- Data files are clearly named using timestamps.
+## 📁 Online Storage Structure (Example)
 
-## 📁 Cloud Storage File Structure (Example)
 ```
 baby-observation-project-storage
 │
@@ -93,11 +97,15 @@ baby-observation-project-storage
     └── sound_20250401_123045.wav
 ```
 
-## 📄 Code Files Provided
-- `audio_image_capture.cpp` – Main embedded logic (capture and upload).
-- `camera_pins.h` – Hardware pin definitions for camera integration.
+## 📄 Provided Files
 
-## ✅ Outcome
-- Automated, efficient, and reliable data capturing system.
-- Reduced unnecessary uploads, effectively managing cloud storage space. This is because the system only records and uploads data when a significant noise event happens, avoiding unnecessary recordings when it's quiet, thus saving storage space.
-- Facilitates seamless integration with AI classification and mobile front-end by other team members.
+- `audio_image_capture.cpp` – Core logic for data capture and upload.
+- `camera_pins.h` – Camera hardware pin definitions.
+
+## ✅ Project Outcomes
+
+- An automated and dependable system for capturing critical events.
+- Efficient storage usage, uploading only relevant recordings. This efficiency is achieved by uploading data exclusively upon detecting significant sound events, thus minimizing unnecessary data storage.
+- Facilitates subsequent data analysis and application development by team members.
+
+---
