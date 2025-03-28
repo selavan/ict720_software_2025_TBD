@@ -2,7 +2,9 @@
 
 A scalable IoT system integrating MQTT, MongoDB, REST API, and a Flutter mobile app for real-time data monitoring and management.
 
-![System Architecture](https://via.placeholder.com/800x400?text=MQTT+Explorer+System+Diagram) *(Replace with actual diagram)*
+<div style="text-align: center;">
+  <img src="images/diagram_1.png" alt="Alt text" width="750">
+</div>
 
 ## 📦 Components
 
