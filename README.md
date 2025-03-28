@@ -96,10 +96,7 @@ image source: https://lastminuteengineers.com/esp32-pinout-reference/
 - ESP32 with external processing unit
 - ESP32 (C/C++) → Communication Layer (e.g. MQTT) → ML Processing (Python)
 
-## 6. Misc.
-
-
-## 7. **Data Approach**
+## 6. **Data Approach**
 | No. | Data Aspect | Description                                   | Type                        | Format                     | Collecting Medium   | Data Management                           | Process                  |
 |-----|-------------|-----------------------------------------------|-----------------------------|----------------------------|---------------------|--------------------------------------------|--------------------------|
 | 1   | **Images**  | Photos captured from ESP32-CAM                | Raw Image (RGB/Grayscale)   | .jpg / .png / .bmp         | ESP32-CAM           | Data Cleaning, Data Labeling, Data Logging | Face Detection           |
