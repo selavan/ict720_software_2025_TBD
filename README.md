@@ -91,11 +91,12 @@ image source: https://lastminuteengineers.com/esp32-pinout-reference/
 ![Alt text](images/NaC.png)
 
 
-## 6. **Approach**
+<img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="300">
+
 - ESP32 with external processing unit
 - ESP32 (C/C++) → Communication Layer (e.g. MQTT) → ML Processing (Python)
 
-<img src="images/ESP32_w_ext.processing.png" alt="Alt text" width="300">
+## 6. Misc.
 
 
 ## 7. **Data Approach**
