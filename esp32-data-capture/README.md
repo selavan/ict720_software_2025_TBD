@@ -41,7 +41,7 @@ This project focuses on developing an automated system using the **T-SIMCAM ESP3
 
 ## 📁 Cloud Storage File Structure
 ```
-your-project.appspot.com
+xxxxx.appspot.com
 │
 ├── images
 │   └── image_TIMESTAMP.jpg
