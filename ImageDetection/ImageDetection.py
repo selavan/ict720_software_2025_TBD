@@ -1,4 +1,4 @@
-# ImageDetectionCode for model training and testing
+# ImageDetectionCode for model training
 
 ---
 
