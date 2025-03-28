@@ -112,7 +112,7 @@ image source: https://lastminuteengineers.com/esp32-pinout-reference/
 |----------|---------------|--------------------|--------------|-----------|
 | **Who** | Identifies the observer (parent, caregiver, AI system) | "Parent", "Nanny", "AI Monitor" | String | N/A |
 | **When** | Timestamp of the observation | `YY/MM/DD H/M/S` | Datetime | Global UTC time |
-| **What** | Baby's current status or action | "Crying", "Sleeping", "Smiling", "Waking Up" | String | N/A |
+| **What** | Baby's current status or action | "Angry", "Disgust", "Fear", "Happy" , "Neutral" , "Surprise" | String | N/A |
 | **Why** | Possible reason for the baby's state | "Hungry", "Diaper wet", "Sleepy", "Happy interaction" | String | Optional for further baby status analysis and interpretation. |
 | **Which** | Identifies specific signals used to classify the baby's state | "Audio (cry sound detected)", "Video (facial expression detected)" | String | N/A |
 | **Where** | Location where the observation was made | "Crib", "Living Room", "Car Seat", "Daycare" | String | N/A |
