@@ -19,25 +19,66 @@ This project focuses on developing an automated system using the **T-SIMCAM ESP3
 ## ⚙️ Implementation Details
 
 ### 🔊 Sound Detection
-- The system continuously monitors ambient sound through the I2S microphone.
-- Real-time audio samples are captured at a sampling rate of 16kHz.
-- Calculates the root mean square (RMS) value of sound samples to accurately determine sound intensity.
-- When the sound intensity exceeds a predefined RMS threshold, it triggers data capture.
-- Continues monitoring during recording, only stopping after detecting a continuous silence period (approximately 3 seconds below threshold).
+- The microphone continuously monitors surrounding sounds.
+- It calculates sound intensity levels using RMS (Root Mean Square):
+
+```cpp
+int soundLevel = readSoundLevel();
+if (!recording && soundLevel > SOUND_THRESHOLD) {
+    recording = true;
+    captureAndUploadImage();
+    startAudioRecording();
+    silenceStart = millis();
+}
+```
+
+- Recording stops after about 3 seconds of silence:
+
+```cpp
+if (recording && millis() - silenceStart > SILENCE_DURATION) {
+    recording = false;
+    stopAudioRecordingAndUpload();
+}
+```
 
 ### 📸 Image Capture
-- Upon detecting a significant sound event, the ESP32 camera immediately captures an image.
-- Captures images in JPEG format with a resolution of QVGA (320x240 pixels) to balance quality and file size.
-- Ensures images are timestamped uniquely for clear identification in Firebase.
+- A picture is taken immediately when loud sound is detected:
+
+```cpp
+void captureAndUploadImage() {
+    camera_fb_t *fb = esp_camera_fb_get();
+    if (fb) {
+        String path = "/images/image_" + String(millis()) + ".jpg";
+        Firebase.Storage.upload(&fbdo, STORAGE_BUCKET_ID, path, fb->buf, fb->len, "image/jpeg");
+        esp_camera_fb_return(fb);
+    }
+}
+```
+
+- Pictures are small (320x240 pixels) to save storage.
+- Each image is timestamped for easy retrieval.
+
 
 ### 🎙️ Audio Recording
-- Begins recording audio simultaneously with image capture upon initial sound event detection.
-- Stores recorded audio in WAV format with 16-bit depth at a 16kHz sampling rate.
-- Continues recording until consistent silence is detected for a predefined duration (approximately 3 seconds), ensuring all relevant audio data is captured without excess.
+- Sound recording begins immediately upon event detection:
 
+```cpp
+void startAudioRecording() {
+    audioFile = SPIFFS.open("/audio.wav", FILE_WRITE);
+}
+```
+
+- It continues recording until the environment remains quiet for around 3 seconds.
+- High-quality audio is saved as WAV format.
+  
 ### ☁️ Cloud Integration (Firebase)
-- Securely uploads captured images and audio files to Firebase Cloud Storage.
-- Uses structured naming conventions based on timestamps for easy retrieval and processing.
+- Recorded data is safely uploaded to Firebase Cloud Storage:
+
+```cpp
+Firebase.Storage.upload(&fbdo, STORAGE_BUCKET_ID, path, file, content_type);
+```
+
+- Data files are clearly named using timestamps.
 
 ## 📁 Cloud Storage File Structure (Example)
 ```
