@@ -1,9 +1,9 @@
 # MQTT Explorer System
 
-A scalable IoT system integrating MQTT, MongoDB, REST API, and a Flutter mobile app for real-time data monitoring and management.
+This baby observation project integrating MQTT, MongoDB, REST API, and a Flutter mobile app for real-time data monitoring/
 
 <div style="text-align: center;">
-  <img src="images/diagram_1.png" alt="Alt text" width="750">
+  <img src="images/web_diagram.png" alt="Alt text" width="750">
 </div>
 
 ## 📦 Components
