@@ -90,8 +90,6 @@ image source: https://lastminuteengineers.com/esp32-pinout-reference/
 - Station Mode
 ![Alt text](images/NaC.png)
 
-Why Wi-Fi?
-
 
 ## 6. **Approach**
 - ESP32 with external processing unit
