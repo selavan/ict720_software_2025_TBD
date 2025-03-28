@@ -168,3 +168,16 @@ _**Testing Result**_
 <img width="200" alt="Screenshot 2568-03-28 at 18 39 00" src="https://github.com/user-attachments/assets/860ad35b-8204-46e9-810b-c7ecad811e17"/>
 
 ⬆️ Sad face
+
+---
+
+### Conclusion on AI
+1) Works as expected
+
+   1.1) Train and Test
+
+   1.2) Build and upload to the ESP32 for actual testing
+
+3) Image size was an issue as that dataset images were to small to use
+
+4) Send detection data to the next stage.
