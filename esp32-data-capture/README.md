@@ -39,15 +39,17 @@ This project focuses on developing an automated system using the **T-SIMCAM ESP3
 - Securely uploads captured images and audio files to Firebase Cloud Storage.
 - Uses structured naming conventions based on timestamps for easy retrieval and processing.
 
-## 📁 Cloud Storage File Structure
+## 📁 Cloud Storage File Structure (Example)
 ```
-xxxxx.appspot.com
+baby-observation-project-storage
 │
-├── images
-│   └── image_TIMESTAMP.jpg
+├── pictures
+│   ├── picture_20250401_120000.jpg
+│   └── picture_20250401_123045.jpg
 │
-└── audio
-    └── audio_TIMESTAMP.wav
+└── sounds
+    ├── sound_20250401_120000.wav
+    └── sound_20250401_123045.wav
 ```
 
 ## 📄 Code Files Provided
@@ -56,5 +58,5 @@ xxxxx.appspot.com
 
 ## ✅ Outcome
 - Automated, efficient, and reliable data capturing system.
-- Reduced unnecessary uploads, effectively managing cloud storage space.
+- Reduced unnecessary uploads, effectively managing cloud storage space. This is because the system only records and uploads data when a significant noise event happens, avoiding unnecessary recordings when it's quiet, thus saving storage space.
 - Facilitates seamless integration with AI classification and mobile front-end by other team members.
