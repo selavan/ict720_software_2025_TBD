@@ -1,40 +1,44 @@
-# IoT Monitoring System with MQTT, Flutter, and MongoDB
+# MQTT Explorer System
 
-A lightweight system where Flutter interacts directly with MQTT for real-time data and MongoDB for storage.
+A scalable IoT system integrating MQTT, MongoDB, REST API, and a Flutter mobile app for real-time data monitoring and management.
 
-## Architecture Overview
+![System Architecture](https://via.placeholder.com/800x400?text=MQTT+Explorer+System+Diagram) *(Replace with actual diagram)*
 
-![System Diagram](diagram.png) *(Replace with your actual diagram)*
+## 📦 Components
 
-### Key Components
-1. **MQTT Explorer**  
-   - Debugging tool to monitor MQTT topics/messages.
+### 1. **MQTT Explorer**
+   - Core application to interact with MQTT brokers (subscribe/publish messages).  
 
-2. **MQTT Broker (e.g., Mosquitto/EMQX)**  
-   - Central hub for device/app communication (pub/sub).
 
-3. **Flutter App**  
-   - Connects **directly to MQTT** for real-time updates.  
-   - Uses **MongoDB Dart/Flutter SDK** (e.g., `mongo_dart`) for local/remote storage.  
-   - Built with **Android Studio**.
+### 2. **MQTT Protocol**
+   - Lightweight publish-subscribe messaging for real-time device communication.  
+   *Broker: Mosquitto.
 
-4. **MongoDB**  
-   - Stores data either:  
-     - *Locally*: Embedded in the app (e.g., Hive for lightweight NoSQL).  
-     - *Remotely*: Via MongoDB Realm or Atlas SDK (if cloud sync needed).
+### 3. **MongoDB**
+   - NoSQL database storing MQTT messages, device metadata, and historical data.  
+   *Collections: `devices`, `messages`, `users`.*
 
-## Workflow
-1. **Devices → MQTT Broker**  
-   - Sensors publish data (e.g., `sensor/temperature`).  
-2. **Flutter App ↔ MQTT Broker**  
-   - Subscribes to topics for live data.  
-   - Publishes control commands (e.g., `device/fan/on`).  
-3. **Flutter App ↔ MongoDB**  
-   - Saves critical data locally/remotely.  
-4. **MQTT Explorer**  
-   - Debugs traffic on the broker.
+### 4. **REST API**
+   - **Framework**: Flask/Django  
+   - **Endpoints**:  
+     - `GET /api/messages` – Fetch stored MQTT data.  
+     - `POST /api/command` – Send commands to devices.  
 
-## Setup
-1. **MQTT Broker**:  
+### 5. **Mobile App (Flutter)**
+   - Cross-platform app to visualize data and control devices.  
+   *Features: Real-time charts, topic subscription, alert notifications.*
+
+---
+
+## 🚀 Setup
+
+### Prerequisites
+- Python 3.8+ (REST API)
+- Flutter SDK (Mobile App)
+- MongoDB 5.0+
+- MQTT Broker (e.g., Mosquitto)
+
+### Installation
+1. **MQTT Broker**  
    ```bash
-   mosquitto -v
+   sudo apt install mosquitto mosquitto-clients  # Linux
