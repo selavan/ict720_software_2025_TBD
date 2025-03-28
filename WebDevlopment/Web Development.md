@@ -6,6 +6,13 @@ This baby observation project integrating MQTT, MongoDB, REST API, and a Flutter
   <img src="images/web_diagram.png" alt="Alt text" width="750">
 </div>
 
+Demonstration
+
+<div style="text-align: center;">
+  <img src="images/web demo.png" alt="Alt text" width="750">
+</div>
+
+
 ## 📦 Components
 
 ### 1. **MQTT Explorer**
