@@ -11,9 +11,10 @@
 </div>
 
 ## Member:
-1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com) --> _[Project_Manager]_
-2. Sela VAN --> _[Web_Development]_
-3. Yanavut CHAWAPHANTH --> _[Image_Object_Detection]_
+1. Nattapol TAPTIENG --> _[Data_Capturing]_
+2. Yanavut CHAWAPHANTH --> _[Image_Object_Detection]_
+3. Sela VAN --> _[Web_Development]_
+
 
 ## PIC_Flow:
 
