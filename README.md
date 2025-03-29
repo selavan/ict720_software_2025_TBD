@@ -40,6 +40,47 @@ The T-SIMCAM ESP32-S3 CAM is a versatile development board designed by LilyGO, f
   <img src="images/ESP32-S3-camera-board.jpg" width="600">
 </p>
 
+Start
+  │
+  ▼
+[Real World]
+  │
+  ▼
+[Image & Audio (Detected Event)]
+  │
+  ▼
+┌─────────────┐
+│   ESP32     │─── Oat's Task (Capture image/audio & upload)
+└─────────────┘
+  │
+  ▼ (Raw Image/Audio)
+┌─────────────┐
+│    Cloud    │
+└─────────────┘
+  │
+  ▼ (Download raw data)
+┌─────────────┐
+│     PC      │─── K'farn's Task (Classification)
+└─────────────┘
+  │
+  ▼ (Classification Results)
+┌─────────────┐
+│    Cloud    │
+└─────────────┘
+  │
+  ▼ (Fetch via REST API)
+┌─────────────┐
+│ Mobile App  │─── Sela's Task (Front-end App)
+└─────────────┘
+  │
+  ▼ (Textual Output)
+┌─────────────┐
+│ Smartphone  │
+└─────────────┘
+  │
+  ▼
+[End]
+
 
 **T-SIMCAM ESP32-S3 CAM Hardware Specification**
 
