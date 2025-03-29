@@ -11,8 +11,8 @@
 
 ## PIC_Flow:
 <img src="images/PIC.png" alt="Alt text" width="400">
-```mermaid
 
+```mermaid
 graph TD
     Start[Start] --> RealWorld[Real World Event]
     RealWorld --> Data[Image & Audio Capture]
@@ -38,6 +38,7 @@ graph TD
     end
 
     Smartphone --> End[End]
+```
 
 
 ## Domain: Baby Observation (There...There...🥰)
