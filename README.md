@@ -4,6 +4,12 @@
   <img src="images/diagram_1.png" alt="Alt text" width="750">
 </div>
 
+## Baby Observation Demo
+
+<div style="text-align: center;">
+  <img src="images/project demo.png" alt="Alt text" width="750">
+</div>
+
 ## Member:
 1. Nattapol TAPTIENG (zaku.capzicumz@gmail.com) --> _[Project_Manager]_
 2. Sela VAN --> _[Web_Development]_
