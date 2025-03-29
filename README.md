@@ -11,6 +11,34 @@
 
 ## PIC_Flow:
 <img src="images/PIC.png" alt="Alt text" width="400">
+```mermaid
+
+graph TD
+    Start[Start] --> RealWorld[Real World Event]
+    RealWorld --> Data[Image & Audio Capture]
+
+    Data --> ESP32[ESP32-S3 Board]
+    subgraph Oat's Task
+        ESP32 --> CloudUpload[Upload Raw Data to Cloud]
+    end
+
+    CloudUpload --> CloudStorage[Cloud Storage]
+
+    subgraph K'farn's Task
+        CloudStorage --> PCDownload[Download Raw Data to PC]
+        PCDownload --> Classification[Run Classification]
+        Classification --> CloudUploadResult[Upload Results to Cloud]
+    end
+
+    CloudUploadResult --> CloudStorage2[Cloud Storage]
+
+    subgraph Sela's Task
+        CloudStorage2 --> App[Fetch Results via REST API]
+        App --> Smartphone[Display on Smartphone App]
+    end
+
+    Smartphone --> End[End]
+
 
 ## Domain: Baby Observation (There...There...🥰)
 
