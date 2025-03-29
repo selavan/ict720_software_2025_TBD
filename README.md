@@ -10,7 +10,6 @@
 3. Yanavut CHAWAPHANTH --> _[Image_Object_Detection]_
 
 ## PIC_Flow:
-<img src="images/PIC.png" alt="Alt text" width="400">
 
 ```mermaid
 graph TD
