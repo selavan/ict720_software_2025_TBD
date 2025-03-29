@@ -18,13 +18,13 @@ graph TD
     RealWorld --> Data[Image & Audio Capture]
 
     Data --> ESP32[ESP32-S3 Board]
-    subgraph Oat's Task
+    subgraph Nattapol TAPTIENG's Task
         ESP32 --> CloudUpload[Upload Raw Data to Cloud]
     end
 
     CloudUpload --> CloudStorage[Cloud Storage]
 
-    subgraph K'farn's Task
+    subgraph Yanavut CHAWAPHANTH's Task
         CloudStorage --> PCDownload[Download Raw Data to PC]
         PCDownload --> Classification[Run Classification]
         Classification --> CloudUploadResult[Upload Results to Cloud]
@@ -32,7 +32,7 @@ graph TD
 
     CloudUploadResult --> CloudStorage2[Cloud Storage]
 
-    subgraph Sela's Task
+    subgraph Sela VAN's Task
         CloudStorage2 --> App[Fetch Results via REST API]
         App --> Smartphone[Display on Smartphone App]
     end
