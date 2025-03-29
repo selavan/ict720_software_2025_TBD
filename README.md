@@ -118,6 +118,13 @@ image source: https://lastminuteengineers.com/esp32-pinout-reference/
 - Size: 82 x 35.5 x 12 mm
 
 ## 4. **Software**
+- VS Code
+    - Platform.io
+    - Flutter
+- MQTTX
+- Postman
+- EdgeImpulse
+
 
 ## 5. **Network and Connection**
 - Station Mode
