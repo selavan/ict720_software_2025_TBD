@@ -160,58 +160,9 @@ image source: https://lastminuteengineers.com/esp32-pinout-reference/
 The data can be stored in JSON format for further processing:
 ### Json Representation
 
-```json
-[
-    {
-        "7W": "Who",
-        "Description": "Identifies the observer (parent)",
-        "Value": ["Parent"],
-        "Data_Type": "String",
-        "Remark": "N/A"
-    },
-    {
-        "7W": "When",
-        "Description": "Timestamp of the observation",
-        "Value": "YY/MM/DD H/M/S",
-        "Data_Type": "Datetime",
-        "Remark": "Global UTC time"
-    },
-    {
-        "7W": "What",
-        "Description": "Baby's current status or action",
-        "Value": ["Crying", "Sleeping", "Smiling", "Waking Up"],
-        "Data_Type": "String",
-        "Remark": "N/A"
-    },
-    {
-        "7W": "Why",
-        "Description": "Possible reason for the baby's state",
-        "Value": ["Hungry", "Diaper wet", "Sleepy", "Happy interaction"],
-        "Data_Type": "String",
-        "Remark": "Optional for further baby status analysis and interpretation."
-    },
-    {
-        "7W": "Which",
-        "Description": "Identifies specific signals used to classify the baby's state",
-        "Value": ["Audio (cry sound detected)", "Video (facial expression detected)"],
-        "Data_Type": "String",
-        "Remark": "N/A"
-    },
-    {
-        "7W": "Where",
-        "Description": "Location where the observation was made",
-        "Value": ["Crib", "Living Room", "Car Seat", "Daycare"],
-        "Data_Type": "String",
-        "Remark": "N/A"
-    },
-    {
-        "7W": "Whose",
-        "Description": "Identifies the baby being observed",
-        "Value": ["Baby A", "Baby B"],
-        "Data_Type": "String",
-        "Remark": "For example, consider a family with more than one baby. E.g., siblings"
-    }
-]
+<div style="text-align: center;">
+  <img src="images/json representation.png" alt="Alt text" width="750">
+</div>
 
 ## 8. **Reference**
 - Buy T-SIMCAM (ESP32-S3) at: https://lilygo.cc/products/t-simcam
