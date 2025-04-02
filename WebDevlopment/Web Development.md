@@ -1,6 +1,6 @@
 # Mobile App Development System
 
-This baby observation project integrating MQTT, MongoDB, REST API, and a Flutter mobile app for real-time data monitoring/
+This baby observation project integrating MQTT, MongoDB, REST API, and a Flutter mobile app for real-time data monitoring.
 
 <div style="text-align: center;">
   <img src="images/web_diagram.png" alt="Alt text" width="750">
