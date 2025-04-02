@@ -10,6 +10,8 @@
   <img src="images/project demo.png" alt="Alt text" width="750">
 </div>
 
+Link to the video here: https://www.youtube.com/watch?v=njwl866Gsi0
+
 ## Member:
 1. Nattapol TAPTIENG --> _[Data_Capturing]_
 2. Yanavut CHAWAPHANTH --> _[Image_Object_Detection]_
